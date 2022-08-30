@@ -11,5 +11,6 @@ object Versions {
   const val minotaur = "2.+"
 
   // Kotlin
-  const val kotlin = "1.3.72"
+  const val kotlin = "1.7.10"
+  const val fabricKotlin = "1.8.3+kotlin.1.7.10"
 }

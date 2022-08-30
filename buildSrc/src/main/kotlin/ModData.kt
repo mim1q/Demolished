@@ -4,7 +4,7 @@ object ModData {
   const val version = "0.1.0"
   const val versionType = "alpha"
   val mcVersions = listOf("1.19", "1.19.1", "1.19.2")
-  val dependencies = listOf("fabric-api")
+  val dependencies = listOf("fabric-api", "fabric-language-kotlin")
   val changelog = """
     
   """.trimIndent()

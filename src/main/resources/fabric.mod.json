@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "demolished",
+  "version": "0.1.0",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "com.github.mim1q.demolished.Demolished"
+      }
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "fabric": "*",
+    "minecraft": "1.19.x"
+  }
+}

@@ -23,7 +23,7 @@ version = ModData.version
 
 repositories {
   mavenCentral()
-  maven (url = "https://jitpack.io")
+  maven(url = "https://jitpack.io")
 }
 
 dependencies {
@@ -31,6 +31,7 @@ dependencies {
   mappings("net.fabricmc:yarn:${Versions.yarn}:v2")
   modImplementation("net.fabricmc:fabric-loader:${Versions.fabricLoader}")
   modImplementation("net.fabricmc.fabric-api:fabric-api:${Versions.fabricApi}")
+  modImplementation("net.fabricmc:fabric-language-kotlin:${Versions.fabricKotlin}")
 }
 
 @Suppress("UnstableApiUsage")
@@ -49,7 +50,6 @@ tasks {
 }
 
 // Publishing
-
 val secretsFile = rootProject.file("publishing.properties")
 val secrets = Secrets(secretsFile)
 val versionName = "${ModData.id}-${Versions.minecraft[0]}-${ModData.version}"
